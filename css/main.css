@@ -1,0 +1,51 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  background-color: #fff;
+  font: normal 100%/1.5 sans-serif;
+  font-family: 'Source Sans Pro', sans-serif; 
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+
+
+form {
+    text-align: center;
+    overflow: hidden;
+    background-color: #f4f4f4;
+    border: 2px solid #b7b7b7;
+}
+
+button {
+   
+}
+
+ul{
+    list-style-type: none;
+}
+
+.items {
+
+}
+
+.close {
+    float: right;
+}
+
+.complete {
+    text-decoration: line-through;
+    color: #b1b1b1;
+}
