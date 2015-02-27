@@ -13,36 +13,48 @@ html {
   text-size-adjust: 100%;
   background-color: #fff;
   font: normal 100%/1.5 sans-serif;
-  font-family: 'Source Sans Pro', sans-serif; 
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #e5e4df;
 }
 
 *, *::before, *::after {
     box-sizing: inherit;
 }
 
+body {
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 2px solid #cbcbcb;
+}
 
+h1 {
+    font-weight: 100;
+}
 
 form {
     text-align: center;
     overflow: hidden;
-    background-color: #f4f4f4;
-    border: 2px solid #b7b7b7;
+    background-color: #e8e8e8;
+    padding-bottom: 2em;
 }
 
 button {
-   
+    background-color: #b4b3ab;
+    border: 1px solid #666;
+    color:#000;
+    text-decoration:none;
+    font-weight: 100;
 }
 
 ul{
     list-style-type: none;
 }
 
-.items {
-
-}
 
 .close {
     float: right;
+    margin-right: 1em;
 }
 
 .complete {
