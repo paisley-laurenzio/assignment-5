@@ -39,6 +39,10 @@ form {
     padding-bottom: 2em;
 }
 
+.name {
+    border: 2px solid #505050;
+}
+
 button {
     background-color: #b4b3ab;
     border: 1px solid #666;
