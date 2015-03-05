@@ -15,12 +15,16 @@ $form.on('submit', function (e) {
         $li.remove('li');
     });
     
-   $list.on('click', 'li', function () {
-        $(this).addClass('complete');
-    });
+    if ($name.val() != '') {
     
     $li.append($nameDl);
     $list.prepend($li);
     $name.val('');
+    }
+    
+   
 });
 
+ $list.on('click', 'li', function () {
+        $(this).toggleClass('complete');
+    });
